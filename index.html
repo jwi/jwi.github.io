@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="./style.css"></link>
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+		<script src="./minesweeper.js"></script>
+		<script src="./interpolate.js"></script>
+		<script src="./mijnenklaarder.js"></script>
+		<script src="./gui.js"></script>
+	</head>
+	<body>
+		<div id="game"><!-- minesweeper game initializes here --></div>
+		<div id="mijnenklaarder">
+			<button id="btnFindMineDist">Show possible mine distributions</button>
+			<div id="mineDistSelector" style="display:none">
+				<button id="btnPrevMineDist">Previous</button> <span id="distCounter"></span> <button id="btnNextMineDist">Next</button>
+			</div>
+			
+			<button id="btnShowHeatmap">Show/hide heatmap</button>
+		</div>
+	</body>
+</html>
